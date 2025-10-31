@@ -1,0 +1,16 @@
+<div class="row" style="border-right: 1px solid #eee; margin-right: 10px;">
+    <table class="table">
+        <thead>
+        <tr class="m-2">
+            <th scope="col">게시글 메뉴</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#boardList}}
+            <tr class="m-2">
+                <td><a href = "/board/{{boardId}}">{{boardNm}}</a></td>
+            </tr>
+        {{/boardList}}
+        </tbody>
+    </table>
+</div>
